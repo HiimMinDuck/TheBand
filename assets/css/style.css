@@ -6,6 +6,7 @@
 }
 html{
     font-family: Lato;
+    line-height: 1.5;
 }
 #main{
     
@@ -18,6 +19,7 @@ html{
     top: 0px;
     left: 0px;
     right: 0px;
+    z-index: 1;
 }
 #nav,.sub-nav{
     list-style-type: none;
@@ -125,6 +127,50 @@ html{
     to {opacity: 1}
   }
 #content{
+    margin: -3px 101px 0px 101px;
+    padding:  64px 16px;
+    
+}
+#content .content-section{
+    max-width: 800px;
+    
+}
+#content .section-heading{
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 0px;
+    line-height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#content .section-sub-heading{
+    text-align: center;
+    margin: 15px 0px;
+    opacity: 0.6;
+    font-style: italic;
+}
+#content .about-text{
+    text-align:justify;
+    margin:15px 0px;
+}
+.team-member{
+    padding: 32px 0px;
+    overflow: hidden;
+}
+.member{
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+}
+.team-member .member .name{
+    margin: 15px 0px;
+}
+.team-member .member .picture{
+    margin: 0px 0px 16px;
+    width: 60%;
+    border-radius: 4px;
+    vertical-align: middle;
 
 }
 #footer{
