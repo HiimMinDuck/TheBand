@@ -4,6 +4,9 @@
   box-sizing: border-box;  
   font-size: 15px;
 }
+.fa{
+    display: inline-block;
+}
 html{
     font-family: Lato;
     line-height: 1.5;
@@ -13,7 +16,6 @@ html{
 }
 #main{
     
-
 }
 #header{
     height: 46px;
@@ -181,6 +183,100 @@ html{
 }
 .tour-section{
     background-color: #000;
+    padding: 0 8px;
+
+}
+.tour-dates{
+    background-color: #fff;
+    margin-top: 40px;
+    border: 1px solid #ccc;
+    list-style-type: none;
+}
+.tour-dates>li{
+    border-bottom: 1px solid #ccc;
+    padding: 8px 16px;
+    color: #757575;
+    line-height: 22px;
+}
+.sold-out{
+    background-color: #f44336;
+    color: #fff;
+    padding: 0px 8px;
+    margin: 0px 0px 0px 16px;
+    height: 22px;
+    text-align: center;
+    display: inline-block;
+}
+.quantity{
+    background-color: black;
+    border-radius: 50%;
+    padding: 0px 8px;
+    text-align: center;
+    float: right;
+    margin: 0px 16px 0px 0px;
+}
+.list-places{
+    overflow: hidden;
+    margin: 0px -16px;
+    padding: 32px 8px;
+}
+.tour-places{
+    width: 33.3333%;
+    float:left;
+    padding: 0px 8px;
+    margin-bottom: 16px;
+    margin-top: 15px;
+}
+.tour-places>img{
+    width: 100%;
+    vertical-align: middle;
+    display: block;
+}
+.tour-places>img:hover{
+    opacity: 0.6;
+}
+.caption{
+    background-color: #fff;
+    padding: 0.01em 16px;
+}
+
+.opacity{
+    margin:15px 0px;
+    opacity: 0.6;
+}
+.caption>p{
+    margin: 15px 0px;
+}
+.buy-btn{
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 16px;
+    background-color: black;
+    padding: 8px 16px;
+    display: inline-block;
+}
+.buy-btn:hover{
+    color: black;
+    background-color: #ccc;
+}
+.content-contact{
+    width: 100%;
+    padding:32px 0px;
+    float: left;
+}
+.contact{
+    font-size: 18px;
+    width: 49.9999%;
+    margin: 0px;
+}
+.contact>i{
+    width: 30px;
+}
+.form-contact{
+    width: 49.9999%;
+    float: left;
+}
+.half{
 
 }
 #footer{
