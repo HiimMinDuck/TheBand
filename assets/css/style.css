@@ -264,13 +264,13 @@ html{
 .content-contact{
     width: 100%;
     padding:32px 0px;
-    float: left;
+    display: inline-block;
 }
 .contact{
     font-size: 18px;
     width: 49.9999%;
     margin: 0px;
-    display: inline-block;
+    float: left
 }
 .contact>i{
     width: 30px;
@@ -278,7 +278,7 @@ html{
 .form-contact{
     width: 50%;
     display: inline-block;
-    float: right;
+
 }
 .first-line-form{
     margin: 0 -16px 8px -16px;
